@@ -1,0 +1,52 @@
+*{
+  min-width: 0;
+  box-sizing: border-box;
+  background: transparent;
+  font-family: '#1c1c46';
+}
+.text{
+  display: flex;
+  margin-left: 35px;
+  justify-content: space-between;
+  padding: 10px;
+  padding-right: 12rem;
+  border-radius: 10px;
+  margin-top: 25px;
+  font-size: 15px;
+}
+.send{
+  display: flex;
+  outline: none;
+  font-size: 20px;
+  color: #eee;
+  background: #3475aa;
+  border-radius: 10px;
+   transition-duration: 0.2s;
+   padding: 8px;
+   margin-top: 20px;
+   margin-left: 9.5rem;
+   cursor: pointer;
+}
+
+.pass{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 22px;
+  padding: 15px;
+  padding-top: 5px;
+  padding-bottom: 30px;
+  margin-left: 28rem;
+}
+
+.send:hover{
+  background: transparent;
+  cursor: pointer;
+  color: black;
+}
+
+h2{
+  border-radius: 15px;
+  /* box-shadow: inset 0 1px 0 #777; */
+} 
+

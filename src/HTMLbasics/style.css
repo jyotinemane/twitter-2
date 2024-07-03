@@ -1,0 +1,141 @@
+body{
+    margin: 0%;
+    box-sizing: border-box;
+    min-height: 100vh;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+article{
+
+}
+
+.button, button {
+
+    background-color: aqua;
+    color: blue;
+    margin: 50px;
+    padding: 15px 20px;
+    border: solid 2px black;
+    border-radius: 10px;
+    font-size: larger;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    transition:  3s;
+}
+
+.button:hover, button:active{
+    background-color: beige;
+    color: black;
+}
+section{
+    height: 400px;
+    background-color: lightcyan;
+}
+
+.image{
+    width: 300px;
+    height: auto;
+    border-radius: 20px;
+    float: right;
+}
+ .navbar{ 
+    margin: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    height: 50px;
+    background-color: black;
+} 
+.flex-container{
+    height: 400px;
+    width: 400px;
+    background-color: aquamarine;
+    border: solid 3px black;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.flex-element{
+    height: 50px;
+    width: 100px;
+    background-color: blue;
+    color: white;
+    border: solid 2px white;
+}
+footer{
+    /* padding: 10px; */
+    height: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    /* float: bottom; */
+}
+aside{
+    float: left;
+    min-height: calc(100vh - 100px);
+    background-color: palegoldenrod;
+}
+section p{
+    font-family: cursive;
+}
+.flex-container .flex-element:nth-child(4){
+    background-color: red;
+}
+.flex-container .flex-element:first-child{
+    background-color: purple;
+}
+.flex-container .flex-element:last-child(4){
+    background-color: green;
+}
+section  > p{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: greenyellow;
+    /* transform: translate(100px, 500px) rotate(120deg) skew(20deg, 10deg) scale(1.5); */
+    animation-name: change-location;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 5s;
+    animation-timing-function: ease-in-out;
+    position: relative;
+}
+
+@keyframes change-location{
+    0%{
+        left: 0px;
+        top: 0%;
+    }
+    25%{
+        background-color: red;
+        left: 200px;
+        top: 0px;
+    }
+    50%{
+        background-color: blue;
+        left: 200px;
+        top: 200px;
+    }
+    75%{
+        background-color: pink;
+        left: 0px;
+        top: 200px;
+    }
+    100%{
+        background-color: yellowgreen;
+        top: 0px;
+        bottom: 200px;
+    }
+
+}
+

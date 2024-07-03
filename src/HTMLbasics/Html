@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first html code is here</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        /* a{
+            background-color: blue;
+            color: aqua;
+        }
+        .button{
+            background-color: aqua;
+            color: green; */
+        /* } */
+    </style>
+</head>
+<body>
+    <header>
+        <p>This is my first html code</p>
+    </header>
+    <nav>
+        <ul class="navbar">
+            <li><a href="/">Home</a></li>
+            <li><a href="/about.html">About</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <aside>
+        <ul>
+            <li>section</li>
+            <li>article</li>
+        </ul>
+    </aside>
+    <section>
+    <h1>Hello word</h1>
+    <p>fdghfjhgkjhkj</p>
+    <img class="image" src="https://images.unsplash.com/photo-1609607726501-5f6e756a3b6a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bnV0dXJlfGVufDB8fDB8fHww" alt="image"/>
+    <p>Lorem ipsum dolor sit, 
+        amet consectetur adipisicing elit.<br/> 
+        Tenetur odio ea vero error dicta id, 
+        ratione omnis perferendis incidunt ut 
+        deleniti iure animi cupiditate placeat 
+        voluptatum voluptas recusandae consequatur ex.</p>
+    </section>
+    <article>
+        <a href="https://facebook.com" class="button">Link to facebook</a>
+        <button>Link to facebook</button>
+    </article>
+   
+    <footer>All &#169; rights reserved</footer>
+</body>
+</html>

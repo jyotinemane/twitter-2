@@ -1,0 +1,43 @@
+.sidebarOptions{
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    color: black;
+    grid-row: auto;
+    outline: none;
+    box-shadow: none;
+}
+
+.sidebarOptions:hover{
+    background-color: #e8f5fe;
+    border-radius: 30px;
+    color: var(--twitter-color);
+    transition: color 100ms ease-out;
+}
+
+.sidebarOptions>.MuiSvgIcon-root{
+    gap: 20%;
+    margin: 5px;
+    color: var(--twitter-color);
+    justify-content: space-between;
+    word-spacing: 10px;
+}
+
+.sidebarOptions>h2{
+    font-weight: 600;
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+.done_icon{
+    color: var(--twitter-color) !important;
+}
+
+@media screen and( max-width:688 ) { 
+     .sidebar_twitter { 
+         display: none; 
+     };
+    };
